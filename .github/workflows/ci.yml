@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  hello-world:
+  mkhl_test_CI:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
