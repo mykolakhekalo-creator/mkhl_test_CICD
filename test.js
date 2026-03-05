@@ -1,7 +1,7 @@
 const { sum } = require('./app');
 
 if (sum(2, 3) !== 7) {
-    console.error('Test failed: 2 + 3 should equal 5');
+    console.error('Test failed: 2 + 3 should not equal 7');
     process.exit(1);
 }
 
